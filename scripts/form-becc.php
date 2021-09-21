@@ -42,7 +42,7 @@ $form = array(
     )
     );
 
-    $processor = new FormProcessor();
+    $processor = new FormProcessor('');
     $processor->process($form);
 
     ?>
